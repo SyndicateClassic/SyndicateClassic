@@ -1929,6 +1929,18 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         else
             pfrom->fRelayTxes = true;
 
+
+        // Check for lower tip and ban immediately if connected
+         if (
+        		 pfrom->nStartingHeight < nBestHeight
+         )
+         {
+             Misbehaving(pfrom->GetId(), 100);
+
+         }
+
+
+
         // Disconnect if we connected to ourself
         if (nNonce == nLocalHostNonce && nNonce > 1)
         {
