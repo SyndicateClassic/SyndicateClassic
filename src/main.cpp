@@ -1930,8 +1930,9 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             pfrom->fRelayTxes = true;
 
 
+        // Check for bad version and ban immediately if connected
         // Check for lower tip and ban immediately if connected
-         if (
+         if ( pfrom->cleanSubVer.substr(0, 21) != "/Syndicate Core:1.9.9" ||
         		 pfrom->nStartingHeight < nBestHeight
          )
          {
