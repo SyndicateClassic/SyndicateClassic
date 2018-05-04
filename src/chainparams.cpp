@@ -92,7 +92,14 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        vSeeds.push_back(CDNSSeedData("synx.online", "seed.synx.online"));
+
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed1.syndicateclassic.ltd"));
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed2.syndicateclassic.ltd"));
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed3.syndicateclassic.ltd"));
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed4.syndicateclassic.ltd"));
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed5.syndicateclassic.ltd"));
+        vSeeds.push_back(CDNSSeedData("syndicateclassic.ltd", "dnsseed6.syndicateclassic.ltd"));
+
         
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
