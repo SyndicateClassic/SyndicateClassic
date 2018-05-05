@@ -67,7 +67,7 @@ wget https://raw.githubusercontent.com/SyndicateLtd/SyndicateQT/master/doc/insta
 	- Set the VPS ip and the port: [Ip:Port]
 	- Set the generated private key: step 2.1.5
 	- Click Add and after click Start
-	- Wait 1 day to start receiving coins. Check your the masternode address here: [http://explorer.syndicateltd.net/](http://explorer.syndicateltd.net/)
+	- Wait 1 day to start receiving coins. Check your the masternode address here: [http://explore.syndicateclassic.ltd/](http://explore.syndicateclassic.ltd/)
 	- Note: You can't edit the masternodes config in the wallet but you can edit the file. `%appdata%/Syndicate/masternode.conf`.
 
 ## 3. FAQ

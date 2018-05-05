@@ -283,7 +283,7 @@ Transaction index: [5k desposit transaction index. 'masternode outputs']
 \tWait until all masternodes are fully synced. To check the progress login the 
 \tmasternode account (su mnX, where X is the number of the masternode) and run
 \tthe 'syndicate-cli getinfo' to get actual block number. Go to
-\thttp://explorer.syndicateltd.net/ website to check the latest block number. After the
+\thttp://explore.syndicateclassic.ltd/ website to check the latest block number. After the
 \tsyncronization is done add your masternodes to your desktop wallet.
 Datas:""" + mn_data)
 
