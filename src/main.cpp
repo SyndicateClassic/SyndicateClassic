@@ -1933,14 +1933,18 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             pfrom->fRelayTxes = true;
 
 
-        // Check for bad version and ban immediately if connected
-         if ( pfrom->cleanSubVer.substr(0, 16) != "/Syndicate Core:" && (now() > FORK_TIME)
-         )
-         {
-             Misbehaving(pfrom->GetId(), 100);
+        // Filter for acceptable versions based on relation to FORK_TIME, ban immediately if filtered
+		if (((now() < FORK_TIME)
+				&& (pfrom->cleanSubVer.substr(0, 21) != "/Syndicate Core:1.9.9"
+						&& pfrom->cleanSubVer.substr(0, 19)
+								!= "/Syndicate Classic:"))
+				|| ((now() < FORK_TIME)
+						&& (pfrom->cleanSubVer.substr(0, 19)
+								!= "/Syndicate Classic:")))
+		{
+			Misbehaving(pfrom->GetId(), 100);
 
-         }
-
+		}
 
 
         // Disconnect if we connected to ourself
