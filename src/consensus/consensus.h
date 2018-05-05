@@ -16,7 +16,7 @@ static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 
 
 /** The time of  the fork */
-static const unsigned int FORK_TIME = 1525827600; /Human time (GMT): Wednesday, May 9, 2018 1:00:00 AM
+static const unsigned int FORK_TIME = 1525827600; // Human time (GMT): Wednesday, May 9, 2018 1:00:00 AM
 
 
 #endif // SYNX_CONSENSUS_CONSENSUS_H
