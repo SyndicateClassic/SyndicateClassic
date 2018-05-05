@@ -23,6 +23,9 @@
 #include "script/interpreter.h"
 #include "util.h"
 
+#include "consensus/consensus.h"
+
+
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
@@ -1931,9 +1934,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
 
         // Check for bad version and ban immediately if connected
-        // Check for lower tip and ban immediately if connected
-         if ( pfrom->cleanSubVer.substr(0, 21) != "/Syndicate Core:1.9.9" ||
-        		 pfrom->nStartingHeight < nBestHeight
+         if ( pfrom->cleanSubVer.substr(0, 16) != "/Syndicate Core:" && (now() > FORK_TIME)
          )
          {
              Misbehaving(pfrom->GetId(), 100);
