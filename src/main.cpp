@@ -1934,11 +1934,12 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
 
         // Filter for acceptable versions based on relation to FORK_TIME, ban immediately if filtered
-		if (((now() < FORK_TIME)
+        int64_t now = GetTime();
+		if (((now < FORK_TIME)
 				&& (pfrom->cleanSubVer.substr(0, 21) != "/Syndicate Core:1.9.9"
 						&& pfrom->cleanSubVer.substr(0, 19)
 								!= "/Syndicate Classic:"))
-				|| ((now() < FORK_TIME)
+				|| ((now < FORK_TIME)
 						&& (pfrom->cleanSubVer.substr(0, 19)
 								!= "/Syndicate Classic:")))
 		{
