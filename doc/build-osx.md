@@ -40,7 +40,7 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-Build Syndicate Core
+Build Syndicate Classic
 ------------------------
 
 1. Clone the syndicate source code and cd into `syndicate`
@@ -69,7 +69,7 @@ Build Syndicate Core
 Running
 -------
 
-Syndicate Core is now available at `./src/syndicated`
+Syndicate Classic is now available at `./src/syndicated`
 
 Before running, it's recommended you create an RPC configuration file.
 

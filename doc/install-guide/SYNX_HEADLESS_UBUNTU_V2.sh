@@ -27,7 +27,7 @@ cd /opt
 rm -rf SyndicateQT
 mkdir SyndicateQT
 cd SyndicateQT
-wget https://github.com/SyndicateLtd/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz
+wget https://github.com/SyndicateClassic/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz
 tar -zxvf Syndicate-1.9.9-x86_64-linux-gnu.tar.gz
 cp Syndicate-1.9.9-x86_64-linux-gnu/syndicated /usr/local/bin/
 cp Syndicate-1.9.9-x86_64-linux-gnu/syndicate-cli /usr/local/bin/

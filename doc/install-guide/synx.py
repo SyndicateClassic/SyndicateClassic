@@ -9,7 +9,7 @@ import os
 from urllib2 import urlopen
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
-BOOTSTRAP_URL = "https://github.com/SyndicateLtd/SyndicateQT/releases/download/v1.9.9/blockchain-20180212.zip"
+BOOTSTRAP_URL = "https://github.com/SyndicateClassic/SyndicateQT/releases/download/v1.9.9/blockchain-20180212.zip"
 
 DEFAULT_COLOR = "\x1b[0m"
 PRIVATE_KEYS = []
@@ -132,7 +132,7 @@ def compile_wallet():
         run_command("rm -rf /opt/SyndicateQT")
         run_command("mkdir /opt/SyndicateQT")
         run_command("cd /opt/SyndicateQT")
-        run_command("wget https://github.com/SyndicateLtd/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz")
+        run_command("wget https://github.com/SyndicateClassic/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz")
         
         print_info("Installing wallet...")
         run_command("tar -zxvf Syndicate-1.9.9-x86_64-linux-gnu.tar.gz")

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 FILE=/root/mn_count
-WALLET=https://github.com/SyndicateLtd/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz
+WALLET=https://github.com/SyndicateClassic/SyndicateQT/releases/download/v1.9.9/Syndicate-1.9.9-x86_64-linux-gnu.tar.gz
 BOOTSTRAP=https://www.dropbox.com/s/xtyn9540qx1ntva/bootstrap.zip?dl=1
 vpsip=$(hostname -I | awk '{print $1}')
 mncount=$(cat $FILE)

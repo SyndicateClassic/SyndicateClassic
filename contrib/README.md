@@ -26,10 +26,10 @@ Contains files used to package syndicated/syndicate-qt
 for Debian-based Linux systems. If you compile syndicated/syndicate-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
-Files used during the gitian build process. For more information about gitian, see the [the Syndicate Core documentation repository](https://github.com/syndicate-core/docs).
+Files used during the gitian build process. For more information about gitian, see the [the Syndicate Classic documentation repository](https://github.com/syndicate-core/docs).
 
 ### [Gitian-keys](/contrib/gitian-keys)
-PGP keys used for signing Syndicate Core [Gitian release](/doc/release-process.md) results.
+PGP keys used for signing Syndicate Classic [Gitian release](/doc/release-process.md) results.
 
 ### [MacDeploy](/contrib/macdeploy) ###
 Scripts and notes for Mac builds. 

@@ -18,7 +18,7 @@ SYNDICATED_BIN=${SYNDICATED_BIN:-/usr/bin/syndicated}
 SYNDICATED_NICE=${SYNDICATED_NICE:-${NICELEVEL:-0}}
 SYNDICATED_OPTS="${SYNDICATED_OPTS:-${SYNDICATE_OPTS}}"
 
-name="Syndicate Core Daemon"
+name="Syndicate Classic Daemon"
 description="Syndicate cryptocurrency P2P network daemon"
 
 command="/usr/bin/syndicated"

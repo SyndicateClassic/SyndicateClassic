@@ -17,7 +17,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Syndicate Ltd"
-            VALUE "FileDescription",    "syndicated (OSS daemon/client for Syndicate Core)"
+            VALUE "FileDescription",    "syndicated (OSS daemon/client for Syndicate Classic)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "syndicated"
             VALUE "LegalCopyright",     "2018-" STRINGIZE(COPYRIGHT_YEAR) " The Bitcoin and Syndicate developers"

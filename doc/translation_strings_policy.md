@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Syndicate Core software.
+This document provides guidelines for internationalization of the Syndicate Classic software.
 
 How to translate?
 ------------------

@@ -1,11 +1,11 @@
-Syndicate Core
+Syndicate Classic
 =============
 
 Setup
 ---------------------
-Syndicate Core is the original Syndicate client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Syndicate transactions (which is currently more than 100 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
+Syndicate Classic is the original Syndicate client and it builds the backbone of the network. It downloads and, by default, stores the entire history of Syndicate transactions (which is currently more than 100 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Syndicate Core, visit [syndicatecore.org](https://syndicatecore.org/en/releases/).
+To download Syndicate Classic, visit [syndicatecore.org](https://syndicatecore.org/en/releases/).
 
 Running
 ---------------------

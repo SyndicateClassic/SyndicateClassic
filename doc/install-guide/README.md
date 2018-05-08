@@ -22,9 +22,9 @@ Your coins will be safe if the masternode server gets hacked.
 ## 1. Desktop Wallet Preparation <a href="https://www.youtube.com/watch?v=CtnJlrl-kU0" target="_blank"><img src="https://i.imgur.com/SY3eO38.png"></a>
 
 ### 1.1 Setup the wallet
-1. Download the [wallet](https://github.com/SyndicateLtd/SyndicateQT/releases/tag/v1.9.9)
+1. Download the [wallet](https://github.com/SyndicateClassic/SyndicateQT/releases/tag/v1.9.9)
 1. Start and Close the wallet. (creates the folder structure)
-1. Download [Syndicate_blockchain_2018_02_12.zip](https://github.com/SyndicateLtd/SyndicateQT/releases/download/v1.9.9/blockchain-20180212.zip ) blockchain zip file.
+1. Download [Syndicate_blockchain_2018_02_12.zip](https://github.com/SyndicateClassic/SyndicateQT/releases/download/v1.9.9/blockchain-20180212.zip ) blockchain zip file.
 1. Extract the zip file to `%appdata%/Syndicate/` folder. Override existing files!
 
 
@@ -50,12 +50,12 @@ Your coins will be safe if the masternode server gets hacked.
     - Server Size: 5$/mo, 1GB memory (This server is capable to run 3 masternodes. One masternode need 300-400Mb memory)
 
 ### 2.3 Automatic Masternode Setup
-- Note: Use [this](https://github.com/SyndicateLtd/SyndicateQT/blob/master/doc/install-guide/MANUAL_SETUP.md) instruction to manualy setup the server. That guide maybe outdated.
+- Note: Use [this](https://github.com/SyndicateClassic/SyndicateQT/blob/master/doc/install-guide/MANUAL_SETUP.md) instruction to manualy setup the server. That guide maybe outdated.
 1. Download [putty](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.70-installer.msi)
 1. Start putty and login as root user. (Root password and server ip address is in vultr overview tab)
 1. Paste this command and answer the questions:
 ```
-wget https://raw.githubusercontent.com/SyndicateLtd/SyndicateQT/master/doc/install-guide/synx.py && python synx.py
+wget https://raw.githubusercontent.com/SyndicateClassic/SyndicateQT/master/doc/install-guide/synx.py && python synx.py
 ```
 
 ### 2.4 Add masternode on the desktop wallet

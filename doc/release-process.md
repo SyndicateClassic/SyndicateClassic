@@ -109,7 +109,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Syndicate Core for Linux, Windows, and OS X:
+### Build and sign Syndicate Classic for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
     ./bin/gbuild --num-make 2 --memory 3000 --commit syndicate=v${VERSION} ../syndicate/contrib/gitian-descriptors/gitian-linux.yml
@@ -293,7 +293,7 @@ syndicate.org (see below for syndicate.org update instructions).
 
   - syndicate-dev and syndicate-core-dev mailing list
 
-  - Syndicate Core announcements list https://syndicatecore.org/en/list/announcements/join/
+  - Syndicate Classic announcements list https://syndicatecore.org/en/list/announcements/join/
 
   - syndicatecore.org blog post
 

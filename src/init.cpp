@@ -312,8 +312,8 @@ strUsage += "\n" + _("Masternode options:") + "\n";
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/SyndicateLtd/SyndicateQT>";
-    const std::string URL_WEBSITE = "<https://www.syndicate.org>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/SyndicateClassic/SyndicateQT>";
+    const std::string URL_WEBSITE = "<https://www.syndicateclassic.ltd>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2009, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -694,12 +694,17 @@ bool AppInit2(boost::thread_group& threadGroup)
 
     RegisterNodeSignals(GetNodeSignals());
 
+    LogPrintf("   CLIENT_NAME: %s\n", CLIENT_NAME);
+    LogPrintf("CLIENT_VERSION: %s\n", CLIENT_VERSION);
+
     // format user agent, check total size
     strSubVersion = FormatSubVersion(CLIENT_NAME, CLIENT_VERSION, mapMultiArgs.count("-uacomment") ? mapMultiArgs["-uacomment"] : std::vector<string>());
     if (strSubVersion.size() > MAX_SUBVERSION_LENGTH) {
         return InitError(strprintf("Total length of network version string %i exceeds maximum of %i characters. Reduce the number and/or size of uacomments.",
             strSubVersion.size(), MAX_SUBVERSION_LENGTH));
     }
+
+    LogPrintf(" strSubVersion: %s\n", strSubVersion);
 
     if (mapArgs.count("-onlynet")) {
         std::set<enum Network> nets;
