@@ -1940,8 +1940,8 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 						&& pfrom->cleanSubVer.substr(0, 21)
 								!= "/Syndicate Core:1.9.9"))
 				|| ((now > FORK_TIME)
-						&& (pfrom->cleanSubVer.substr(0, 19)
-								!= "/Syndicate Classic:")))
+						&& (pfrom->cleanSubVer.substr(0, 15)
+								== "/Syndicate Core")))
 		{
 			Misbehaving(pfrom->GetId(), 100);
 
