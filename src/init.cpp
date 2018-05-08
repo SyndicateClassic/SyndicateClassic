@@ -231,7 +231,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += "  -mininput=<amt>        " + _("When creating transactions, ignore inputs with value less than this (default: 0.01)") + "\n";
     if (fHaveGUI)
         strUsage += "  -server                " + _("Accept command line and JSON-RPC commands") + "\n";
-    if (mode == HMM_SYNXD)
+    if (mode == HMM_XSYND)
     {
 #if HAVE_DECL_DAEMON
         strUsage += "  -daemon                " + _("Run in the background as a daemon and accept commands") + "\n";
@@ -1099,8 +1099,8 @@ bool AppInit2(boost::thread_group& threadGroup)
        A note about convertability. Within Stashedsend pools, each denomination
        is convertable to another.
        For example:
-       1SYNX+1000 == (.1SYNX+100)*10
-       10SYNX+10000 == (1SYNX+1000)*10
+       1XSYN+1000 == (.1XSYN+100)*10
+       10XSYN+10000 == (1XSYN+1000)*10
     */
     stashedSendDenominations.push_back( (1000        * COIN)+1000000 );
     stashedSendDenominations.push_back( (100         * COIN)+100000 );

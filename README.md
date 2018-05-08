@@ -17,12 +17,12 @@ As we also know that you like good news, we’re pleased to announce that the pl
 
 there are some facts you need to know before voting: 
 
-The most important thing that you should know is that received SYNX from voters will not be staked to influence the network, in fact staking rewards will 
+The most important thing that you should know is that received XSYN from voters will not be staked to influence the network, in fact staking rewards will 
 significantly increase, by dramatically lowering the network weight
 
 Voting ends when the first project receives the minimum amount of votes votes
 
-SYNX can be sent from anywhere (wallet or exchange)
+XSYN can be sent from anywhere (wallet or exchange)
 
 There is no minimum amount to send
 
@@ -32,7 +32,7 @@ Project developing will start as soon as it reaches the minimum amount required 
 
 Deadline countdown begins at the end of the voting period
 
-If one of the projects will not raise enough votes to pass the requirement amount, 50% of the coins from the voters will be burned to support SYNX deflation and the other 50% percent will be reserved for community and team (New hires, Marketing, Salaries, Equipment, Graphic Design and Future Community bounties: Twitter, Bitcointalk, Bug Fixes)
+If one of the projects will not raise enough votes to pass the requirement amount, 50% of the coins from the voters will be burned to support XSYN deflation and the other 50% percent will be reserved for community and team (New hires, Marketing, Salaries, Equipment, Graphic Design and Future Community bounties: Twitter, Bitcointalk, Bug Fixes)
 
 The winning project will receive a detailed Whitepaper, max 2 weeks after voting ends
 
@@ -73,9 +73,9 @@ Active Mode - Full POS
 Block time   - 60 Seconds
 Block Maturity - 100 Blocks
 Minimum Stake age - 3 Hours
-POS Block Reward - 10 SYNX
+POS Block Reward - 10 XSYN
 Masernode Reward - 50% of POS
-Masernode Collateral   - 5000 SYNX
+Masernode Collateral   - 5000 XSYN
 Difficulty Retarget - Every Block
 Port - 9999
 RPC Port - 22348

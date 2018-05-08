@@ -41,7 +41,7 @@ echo -n "Key In a LONG RANDOM PASSWORD for the above user and press[ENTER]: "
 read usrpas
 echo -n "Key In the port your want the RPC to listen on  press[ENTER]: "
 read rpcprt
-echo -n "Key In the port your want the SYNX Daemon to listen on  press[ENTER]: "
+echo -n "Key In the port your want the XSYN Daemon to listen on  press[ENTER]: "
 read synxprt
 echo -e "rpcuser=$usrnam \nrpcpassword=$usrpas \nrpcallowip=127.0.0.1 \nrpcport=$rpcprt \nport=$synxprt \nserver=1 \nlisten=1 \ndaemon=1 \nlogtimestamps=1 \nmnconflock=0 \naddnode=45.63.43.122:9999 \naddnode=45.32.156.245:9999 \naddnode=108.61.174.206:9999 \naddnode=45.63.62.79:9999 \naddnode=45.63.52.48:9999 \naddnode=45.63.111.165:9999 \naddnode=104.238.133.191:9999 \naddnode=45.32.148.12:9999 \naddnode=45.32.225.152:9999 \naddnode=45.63.27.232:9999 \naddnode=104.238.151.49:9999 \n" > ~/.Syndicate/Syndicate.conf
 syndicated

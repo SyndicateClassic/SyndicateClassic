@@ -83,10 +83,10 @@ Your coins will be safe if the masternode server gets hacked.
 	- Connect to the server using putty (Load the saved session)
 	- Download the install script: <br/>
 		```
-		wget https://raw.githubusercontent.com/SyndicateClassic/SyndicateQT/master/doc/install-guide/SYNX_HEADLESS_UBUNTU_V2.sh
+		wget https://raw.githubusercontent.com/SyndicateClassic/SyndicateQT/master/doc/install-guide/XSYN_HEADLESS_UBUNTU_V2.sh
 		```
-	- Add executable flag: `chmod +x ./SYNX_HEADLESS_UBUNTU_V2.sh`
-	- Run the script and wait a few minutes until it completes: `./SYNX_HEADLESS_UBUNTU_V2.sh` (Set the rpc username and the rpc password, rpc port = 22350, synx port = 9999)
+	- Add executable flag: `chmod +x ./XSYN_HEADLESS_UBUNTU_V2.sh`
+	- Run the script and wait a few minutes until it completes: `./XSYN_HEADLESS_UBUNTU_V2.sh` (Set the rpc username and the rpc password, rpc port = 22350, synx port = 9999)
 	- Stop syndicated: `syndicated stop`
 	- Intall unzip: `apt-get install unzip`
 1. Create a new user: `adduser mn1`. Note: the password is invisible when you are typing it

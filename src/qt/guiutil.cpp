@@ -139,7 +139,7 @@ bool parseSyndicateURI(const QUrl &uri, SendCoinsRecipient *out)
         {
             if(!i->second.isEmpty())
             {
-                if(!SyndicateUnits::parse(SyndicateUnits::SYNX, i->second, &rv.amount))
+                if(!SyndicateUnits::parse(SyndicateUnits::XSYN, i->second, &rv.amount))
                 {
                     return false;
                 }
@@ -693,7 +693,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         tr("Usage:") + "\n" +
         "  syndicate-Qt [" + tr("command-line options") + "]                     " + "\n";
 
-    coreOptions = QString::fromStdString(HelpMessage(HMM_SYNX_QT));
+    coreOptions = QString::fromStdString(HelpMessage(HMM_XSYN_QT));
 
     uiOptions = tr("UI options") + ":\n" +
         "  -lang=<lang>           " + tr("Set language, for example \"de_DE\" (default: system locale)") + "\n" +

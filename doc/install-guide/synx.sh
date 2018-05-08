@@ -62,7 +62,7 @@ function xthmn() {
 	rm -rf /home/mn$mncount/.Syndicate/Syndicate.conf
 	clear
 		while true; do
-			echo -e "Key In the port your want the SYNX MN$mncount to listen on (normally 9999) and  press[ENTER]: \n"
+			echo -e "Key In the port your want the XSYN MN$mncount to listen on (normally 9999) and  press[ENTER]: \n"
 			while true; do
 				read synxprtmnx
 					if [[ $synxprtmnx = $synxprtmn1 ]]; then
@@ -195,7 +195,7 @@ else
 			echo -e "Key In a MN PASSWORD (same as in your wallet) can be found in same file as before: \n"
 			echo -e "Please key in rpcpassword here and press [ENTER]:\n"
 			read usrpasmn1
-			echo -e "Key In the port your want the SYNX MN to listen on (normally 9999) and  press[ENTER]: \n"
+			echo -e "Key In the port your want the XSYN MN to listen on (normally 9999) and  press[ENTER]: \n"
 			read synxprtmn1
 			echo -e "Key In the Masternode privatekey and press[ENTER]: \n"
 			echo -e "This is the output from masternode genkey command: \n"
